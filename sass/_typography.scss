@@ -1,0 +1,10 @@
+.heading-4 {
+  font-size: 1.9rem;
+
+  &--light {
+    color: var(--color-grey-dark-1);
+  }
+  &--dark {
+    color: #000;
+  }
+}

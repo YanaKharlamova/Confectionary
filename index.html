@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prompt&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="shortcut icon" type="image/png" href="img/iconTitle2.png" />
+    <!-- icon in my title -->
+    <title>SWEETS | CAKES</title>
+  </head>
+
+  <body>
+    <div class="bg-video">
+      <video class="bg-video__content" autoplay muted loop>
+        <source src="img/video.mp4" type="video/mp4" />
+        Your browser is not supported!
+      </video>
+    </div>
+
+    <div class="container">
+      <header class="header">
+        <img
+          src="img/page-red-logo-128.png"
+          alt="confectionary logo"
+          class="logo"
+        />
+
+        <!--search field -->
+
+        <form action="#" class="search">
+          <input
+            type="text"
+            class="search__input"
+            placeholder="Search our products"
+          />
+          <button class="search__button">
+            <svg class="search__icon">
+              <use xlink:href="img/sprite.svg#icon-search"></use>
+            </svg>
+          </button>
+        </form>
+
+        <nav class="user-nav">
+          <div class="user-nav__icon-box">
+            <svg class="user-nav__icon">
+              <use xlink:href="img/sprite.svg#icon-bookmark"></use>
+            </svg>
+            <span class="user-nav__notification">3</span>
+          </div>
+          <div class="user-nav__icon-box">
+            <svg class="user-nav__icon">
+              <use xlink:href="img/sprite.svg#icon-chat"></use>
+            </svg>
+            <span class="user-nav__notification">11</span>
+          </div>
+
+          <div class="user-nav__user">
+            <img
+              src="img/person.jpg"
+              alt="User Photo"
+              class="user-nav__user-photo"
+            />
+            <span class="user-nav__user-name">Anna</span>
+          </div>
+        </nav>
+      </header>
+      <!-- SLIDER CSS ONLY -->
+
+      <div class="slider-container">
+        <input type="radio" id="picture1" name="images" checked />
+        <input type="radio" id="picture2" name="images" />
+        <input type="radio" id="picture3" name="images" />
+        <input type="radio" id="picture4" name="images" />
+
+        <div class="slide_img" id="one">
+          <img src="img/pic1.jpg" />
+
+          <label class="prev" for="picture4"><span></span></label>
+          <label class="next" for="picture2"><span></span></label>
+        </div>
+
+        <div class="slide_img" id="two">
+          <img src="img/pic2.jpg " />
+
+          <label class="prev" for="picture1"><span></span></label>
+          <label class="next" for="picture3"><span></span></label>
+        </div>
+
+        <div class="slide_img" id="three">
+          <img src="img/pic3.jpg " />
+
+          <label class="prev" for="picture2"><span></span></label>
+          <label class="next" for="picture4"><span></span></label>
+        </div>
+
+        <div class="slide_img" id="four">
+          <img src="img/pic4.jpg" />
+
+          <label class="prev" for="picture3"><span></span></label>
+          <label class="next" for="picture1"><span></span></label>
+        </div>
+
+        <div id="nav_slide">
+          <label for="picture1" id="dot1"></label>
+          <label for="picture2" id="dot2"></label>
+          <label for="picture3" id="dot3"></label>
+          <label for="picture4" id="dot4"></label>
+        </div>
+      </div>
+
+      <!-- FEATURES WITH TEXTS -->
+      <section class="features">
+        <div class="feature">
+          <svg class="feature__icon">
+            <use xlink:href="img/sprite.svg#feature-recipe"></use>
+          </svg>
+          <h4 class="heading-4 heading-4--dark">Exquisite Formulation</h4>
+          <p class="feature__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+            mollitia, facere odit iusto ab consectetur vel? Reprehenderit ullam
+            voluptatum dolorum!
+          </p>
+        </div>
+
+        <div class="feature">
+          <svg class="feature__icon">
+            <use xlink:href="img/sprite.svg#feature-heart"></use>
+          </svg>
+          <h4 class="heading-4 heading-4--dark">Design Created With Soul</h4>
+          <p class="feature__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+            mollitia, facere odit iusto ab consectetur vel? Reprehenderit ullam
+            voluptatum dolorum!
+          </p>
+        </div>
+
+        <div class="feature">
+          <svg class="feature__icon">
+            <use xlink:href="img/sprite.svg#feature-master"></use>
+          </svg>
+          <h4 class="heading-4 heading-4--dark">Qualified masters of pastry</h4>
+          <p class="feature__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+            mollitia, facere odit iusto ab consectetur vel? Reprehenderit ullam
+            voluptatum dolorum!
+          </p>
+        </div>
+
+        <div class="feature">
+          <svg class="feature__icon">
+            <use xlink:href="img/sprite.svg#feature-locations"></use>
+          </svg>
+
+          <h4 class="heading-4 heading-4--dark">
+            Many stores in top locations
+          </h4>
+          <p class="feature__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+            mollitia, facere odit iusto ab consectetur vel? Reprehenderit ullam
+            voluptatum dolorum!
+          </p>
+        </div>
+
+        <div class="feature">
+          <svg class="feature__icon">
+            <use xlink:href="img/sprite.svg#feature-gift"></use>
+          </svg>
+          <h4 class="heading-4 heading-4--dark">
+            Individual approach to every order
+          </h4>
+          <p class="feature__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+            mollitia, facere odit iusto ab consectetur vel? Reprehenderit ullam
+            voluptatum dolorum!
+          </p>
+        </div>
+        <div class="feature">
+          <svg class="feature__icon">
+            <use xlink:href="img/sprite.svg#icon-truck"></use>
+          </svg>
+          <h4 class="heading-4 heading-4--dark">Free and fast delivery</h4>
+          <p class="feature__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+            mollitia, facere odit iusto ab consectetur vel? Reprehenderit ullam
+            voluptatum dolorum!
+          </p>
+        </div>
+      </section>
+      <!-- FOOTER -->
+      <footer class="footer">
+        <div class="footer__logo-box">
+          <img
+            src="img/icon-pale-512.png"
+            alt="Full logo"
+            class="footer__logo"
+          />
+        </div>
+        <div class="row">
+          <div class="col-1-of-2">
+            <div class="footer__navigation">
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Company</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Contact us</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Carrers</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Privacy policy</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Terms</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-1-of-2">
+            <p class="footer__copyright">
+              Built by
+              <a href="#" class="footer__link">Yana Kharlamova</a> for my resume
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- end of the total "container" -->
+  </body>
+</html>

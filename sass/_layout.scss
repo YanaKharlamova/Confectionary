@@ -1,0 +1,32 @@
+.container {
+  max-width: 120rem;
+  margin: 8rem auto;
+
+  background-color: var(--color-main-grey);
+  min-height: 50rem;
+
+  box-shadow: var(--shadow-dark);
+}
+
+.header {
+  font-size: 1.4rem;
+  height: 17rem;
+  background-color: var(--color-main-beige);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.features {
+  grid-column: center-start / center-end;
+
+  margin: 10rem 15rem;
+  padding-bottom: 10rem;
+  @supports (display: grid) {
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-gap: 6rem;
+    align-items: start;
+  }
+}
