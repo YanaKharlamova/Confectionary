@@ -13,7 +13,7 @@ My website contains:
 ## Built with:
 * HTML
 * CSS
-* sass
+* Sass
 * BEM
 ## Application Sass Structure
 ![](screenshot/structure.PNG)
