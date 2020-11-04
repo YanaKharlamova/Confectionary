@@ -23,11 +23,12 @@ Use this command in your terminal to run the project:
 ## Screenshots
 **1.**
 
-![](screenshot/confectionary1.PNG)
+![](screenshot/confectionaryImg1.PNG)
 **2.**
 
-![](screenshot/confectionary2.PNG)
+![](screenshot/confectionaryImg1.PNG)
 
 **3.**
 
-![](screenshot/confectionary3.PNG)
+![](screenshot/confectionaryImg1.PNG)
+
