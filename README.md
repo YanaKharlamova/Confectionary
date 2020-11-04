@@ -10,4 +10,5 @@ My website contains:
 * image slider, that present different product items;
 * separated area-blocks with different useful information;
 * interactive footer, with additional data and contacts.
-## Application Structure
+## Application Sass Structure
+![](screenshot/structure.PNG)
