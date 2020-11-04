@@ -10,5 +10,24 @@ My website contains:
 * image slider, that present different product items;
 * separated area-blocks with different useful information;
 * interactive footer, with additional data and contacts.
+## Built with:
+* HTML
+* CSS
+* sass
+* BEM
 ## Application Sass Structure
 ![](screenshot/structure.PNG)
+## Installing
+Use this command in your terminal to run the project:
+`npm run compile:sass`
+## Screenshots
+**1.**
+
+![](screenshot/confectionary1.PNG)
+**2.**
+
+![](screenshot/confectionary2.PNG)
+
+**3.**
+
+![](screenshot/confectionary3.PNG)
