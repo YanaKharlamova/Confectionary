@@ -25,10 +25,12 @@ Use this command in your terminal to run the project:
 
 ![](screenshot/confectionaryImg1.PNG)
 **2.**
+  
 
-![](screenshot/confectionaryImg1.PNG)
+![](screenshot/confectionaryImg2.PNG)
 
 **3.**
+ 
 
-![](screenshot/confectionaryImg1.PNG)
+![](screenshot/confectionaryImg3.PNG)
 
