@@ -6,6 +6,8 @@ It was inspired by lots of sweets and chocolates, that i can`t imagine my life w
 
 
 I tried to create a visually appealing site for my imaginary candy shop, that will present this business in a good light for potential customers.
+
+Live version: https://yanakharlamova.github.io/Confectionary/;
 ## Features
 
 My website contains:
