@@ -19,7 +19,7 @@ My website contains:
 ## Built with:
 * HTML
 * CSS
-* Sass
+* SCSS
 * BEM
 ## Application Sass Structure
 ![](screenshot/structure.PNG)
