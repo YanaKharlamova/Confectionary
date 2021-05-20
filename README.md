@@ -11,7 +11,7 @@ Live version: https://yanakharlamova.github.io/Confectionary/;
 ## Features
 
 My website contains:
-* animated detailsin the header section;
+* animated details in the header section;
 * a background video-loop;
 * image slider, that present different product items;
 * separated area-blocks with different useful information;
