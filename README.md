@@ -21,6 +21,8 @@ My website contains:
 * CSS
 * SCSS
 * BEM
+
+  "7-1" pattern was also used
 ## Application Sass Structure
 ![](screenshot/structure.PNG)
 ## Installing
